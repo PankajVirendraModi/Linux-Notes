@@ -28,7 +28,7 @@ The `du` (disk usage) command is used to estimate the space occupied by files or
 
 To find the top 10 largest directories starting from the root directory (`/`), you can use the following command:
 
-```bash
+```bash red
 du -x / | sort -nr | head -10
 ```
 
